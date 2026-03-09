@@ -1,0 +1,24 @@
+:root {
+  /* Seashore Color Pallete */
+  --ink-black: #001524ff;
+  --dark-teal: #0b3b49ff;
+  --stormy-teal: #15616dff;
+  --muted-teal: #8aa79fff;
+  --papaya-whip: #ffecd1ff;
+  --old-lace: #fff7ebff;
+
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
