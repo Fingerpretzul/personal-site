@@ -57,11 +57,44 @@
 .title {
   margin: 0;
   text-align: center;
+  font-size: 3rem;
 }
 
 .subtitle {
   margin: 0.75rem 0 0;
   text-align: center;
+  font-size: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-teal);
+  transition: transform 160ms ease, color 160ms ease;
+}
+
+.social-link:hover {
+  transform: translateY(-4px);
+  color: var(--stormy-teal);
+}
+
+.social-link:focus-visible {
+  outline: 3px solid var(--muted-teal);
+  outline-offset: 4px;
+}
+
+.social-link svg {
+  width: 7.25rem;
+  height: 7.25rem;
+  fill: currentColor;
 }
 
 @media (max-width: 640px) {
@@ -72,5 +105,9 @@
 
   .site-nav {
     flex-wrap: wrap;
+  }
+
+  .social-links {
+    gap: 1rem;
   }
 }
