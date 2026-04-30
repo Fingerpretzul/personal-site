@@ -1,0 +1,424 @@
+/* more fonts at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Alex Brush:400');
+@import url('https://fonts.googleapis.com/css?family=Anton:400');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Allura:400:');
+@import url('https://fonts.googleapis.com/css?family=Cookie:400:');
+@import url('https://fonts.googleapis.com/css?family=Dancing Script:400,400i,700,700i:');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Kaushan Script:400');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Marck Script:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum Brush Script:400');
+@import url('https://fonts.googleapis.com/css?family=Pacifico:400');
+@import url('https://fonts.googleapis.com/css?family=Playball:400');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Seaweed Script:400');
+@import url('https://fonts.googleapis.com/css?family=Style Script:400');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display:400');
+
+font-family: 'Alex Brush', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Averia Serif Libre', serif;
+font-family: 'Cookie', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Playball', cursive;
+font-family: "Playpen Sans", cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: "Schoolbell", cursive;
+font-family: 'Seaweed Script', cursive;
+font-family: 'Style Script', cursive;
+
+/* <input type="range" id="alpha-range" name="alpha" min="0" max="100" step="1"> */
+
+/* <input type="range" id="hue-range" name="hue" min="0" max="100" step="1"> */
+
+/* <input type="range" id="saturation-range" name="saturation" min="0" max="100" step="1"> */
+
+/* <input type="range" id="brightness-range" name="brightness" min="0" max="100" step="1"> */
+
+/* <button class="btn btn-font-select"><div class="btn-font-select-label" style="font-family: Lato;">Lato</div></button> */
+
+/* fill="rgb(255,255,255)" fill-opacity="0"></rect> */
+
+/* color: "#627b08","#000000","#C0C0C0","#808080","#FFFFFF","#800000","#FF0000","#800080","#FF00FF","#008000","#00FF00","#808000","#FFFF00","#000080","#0000FF","#008080","#00FFFF","#ffd700","#daa520","#ff69b4","#8fbc8f" */
+
+/* style drop down menu removed 20190114 */
+
+/* Lato,Alex+Brush,Allura,Amita,Anton,Barlow,Cookie */
+/* Courgette,Euphoria+Script,Kaushan+Script,Lato,Lobster,Lobster+Two,Marck+Script,Merriweather */
+/* Meie+Script,Monsieur+La+Doulaise,Pacifico,Rancho,Redressed,Rochester,Rock+Salt,Rouge+Script,Sacramento,Sail,Sofia,Sonsie+One */
+
+/******* image options ************************/
+
+.btn-cart-image-options:after {
+    animation: tabLabelExpander .4s ease-in-out 0s 1;
+    content: "";
+}
+
+/*************************** color when mouse in ***************************/
+
+.btn-darkweight {
+	border-radius: 0px;
+	text-transform: uppercase;
+}
+
+.btn-darkweight, .btn-darkweight:focus, .btn-darkweight:disabled:hover {
+	background-color: #555555;
+	border: 1px solid #3a3a3a;
+	color: #ffffff;
+}
+
+/* When mousing into a button, choose images, add to cart... */
+
+.btn-darkweight:hover {
+	background-color: #ffffff;
+	color: #555555;
+	border: 1px solid #888888;
+}
+
+.btn-darkweight:active {
+	background-color: #f3f3f3;
+	color: #3a3a3a;
+	border: 1px solid #888888;
+}
+
+.btn-darkweight:active:hover {
+	background-color: #d4d4d4;
+	color: #000000;
+	border: 1px solid #888888;
+}
+
+.btn-darkweight:disabled:hover {
+	background-color: #3a3a3a;
+	color: #ffffff;
+	border: 1px solid #888888;
+}
+
+.btn-lightweight {
+}
+
+.btn-lightweight, .btn-lightweight:focus, .btn-lightweight:disabled:hover {
+	border-radius: 0px;
+	background-color: #ff7200;
+	color: #080808;
+}
+
+.btn-lightweight:hover {
+	box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.125);
+	background-color: #d4d4d4;
+	color: #555555;
+}
+
+.btn-lightweight:active {
+	box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.125);
+	background-color: #c4c4c4;
+	color: #555555;
+}
+
+.btn-lightweight:active :hover {
+	box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.125);
+	background-color: #d4d4d4;
+	color: #555555;
+}
+
+.btn-linkweight {}
+
+.btn-linkweight, .btn-linkweight:focus, .btn-linkweight:disabled:hover {}
+
+.btn-linkweight:hover {
+	background-color: #e6e6e6;
+	color: #555555;
+	border: none;
+}
+
+.btn-linkweight:active {
+	background-color: #e6e6e6;
+	color: #555555;
+	border: none;
+	margin: 2px;
+}
+
+.btn-linkweight:active:hover {
+	background-color: #c6c6c6;
+	color: #555555;
+	border: none;
+	margin: 2px;
+}
+
+header, .navbar {
+    background-color: #f9d4ae;
+}
+
+/* tab color */
+
+.header-controls div a {
+	color: #ffffff;
+}
+
+header .header-controls a:hover {
+	background-color: #661100;
+	color: #000000;
+}
+/*********** background color behind Products & login ************/
+
+.nav-products {
+    background-color: #ffefcb;
+    border: none;
+    border-radius: 0;
+}
+.nav-login {
+    background-color: #ffb568;
+    border: none;
+    border-radius: 0;
+}
+/********** product groups background ************/
+
+leftside>.leftside-items, rightside>.rightside-items {
+    flex: 1 1 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    background-color: #aeddff;
+}
+
+/***** top bar above the catalog name **********/
+
+.menubar {
+    background-color: rgb(43 141 171);
+}
+.menubar-item>span>span {
+    text-align: center;
+    color: rgb(43 141 171);
+}
+
+.menubar-item.selected {
+    background: rgb(43 141 171 / 0%);
+}
+
+/*********** text scaled message ************/
+
+}
+
+.text-scaled>span:first-child:after {
+    content: "TEXT DOESN'T FIT! CHOOSE A SMALLER SIZE OR LESS TEXT."
+}
+
+/********** favorites background ************/
+
+footer, leftside, rightside {
+    background-color: #fddcdc;
+}
+
+/************ products background **********/
+
+.products-content {
+    align-content: flex-start;
+    background: #bee0d1;
+}
+
+/***************** HEADER NAV BAR ******************/
+.navbar-brand {
+	background-image: url('https://nicholsphotolab.com/neos/branding/logoweb3.png');
+	height: 47px;
+	width: 160px;
+	margin: 1px 10px 1px 10px;
+	background-size: 160px 47px;
+}
+
+menubar {
+    background-color: #f9f7ba;
+    border-bottom: 1px solid var(--btn-brdr-color);
+}
+
+.menubar-item a {
+    align-items: center;
+    color: #366b07;
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 1.2em;
+    height: 100%;
+    min-height: 45px;
+    padding: 0 12px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.navbar-brand {
+		background-image: url('https://nicholsphotolab.com/neos/branding/logoweb3-2x.png');*/
+		background-size: 90px 47px;
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (max-width: 750px)
+header {
+    height: 60px;
+}
+
+/* for products and cart button text color */
+
+header .header-controls a {
+	background-color: #555555;
+	color: #ffffff;
+}
+
+header .header-controls a:hover {
+	background-color: #dddddd;
+	color: #000000;
+}
+.info-ppu:after {
+    padding: 0 0 0 8px;
+    content: "Image resolution is incorrect for this product";
+}
+.info-ppu {
+    color: #f90505;
+}
+
+/***************** Loading images progress bar ******************/
+
+.progress-image-load-bar[data-v-f893b8f0] {
+    height: 15px;
+	}
+	
+/***************** Start Shipping ******************/
+.shipping-methods::after {
+    Color: blue;
+    Content: ".";
+}
+
+.shipping-address::after {
+    Color: red;
+    Content: "We use UPS, Fedex, or USPS";
+}
+/***************** End Shipping ******************/
+
+/***************** Start Payment ******************/
+
+/***************** Payment Button Label Content Replacement ******************/
+.btn-payment-labaccount span:last-of-type {
+    font-size: 0;
+}
+
+.btn-payment-labaccount:after {
+        content: '';
+}
+
+/*Remove Customer Field*/
+#input-creditcard-customernumber.flex-row {
+	    display: none;
+}
+
+/***************** End Payment ******************/
+
+
+
+/***************** Start Mobile ******************/
+@media (max-width: 750px) {
+
+	/*override disappearing icon with smaller one*/
+	.navbar-brand {
+		background-image: url('https://nicholsphotolab.com/neos/branding/logoweb3.png');
+		height: 23px;
+		width: 75px;
+		margin: 8px;
+		z-index: 1;
+		opacity: 1;
+		background-size: 75px 23px;
+	}
+	#scale-controls,
+	#rotate-controls {
+		display: flex;
+		/* display: none; */
+	}
+
+	#crop-controls {
+		min-height:50px;
+	}
+
+	#template-rotate-cw-btn,
+	#template-rotate-ccw-btn {
+		margin: 0 5px 0 5px;
+		width: 40px;
+		height: 40px;
+	}
+
+	#image-rotate-cw-btn,
+	#image-rotate-ccw-btn,
+	#image-scale-out-btn,
+	#image-scale-in-btn {
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		padding: 0 0 0 0;
+		margin: 6px 3px 6px 3px;
+	}
+
+	#scale-range,
+	#rotation-range {
+		display: none;
+	}
+
+	.checkout-body {
+	border-bottom: 1px solid #dddddd;
+	flex: 5 1 1;
+	overflow: hidden;
+	}
+
+	.cart-content-wrapper,
+	.checkout-content-wrapper {
+		padding: 0px 0px 20px 0px;
+	}
+
+            body {
+
+   line-height: 1;
+
+}
+    .checkout-input {
+    height: 35px;
+    }
+	
+	.payment-creditcard-form {
+		min-width: 320px;
+	}
+}
+
+/*************************** ppumin message ***************************/
+
+.info-ppu:after {
+ padding: 0 0 0 8px;
+ content: "IMAGE RESOLUTION TOO LOW";
+}
+.info-ppu {
+ color: #ff0000;
+ font-size: 1.2em;
+ padding: 3px;
+ text-align: center;
+ min-height: 24px;
+} 
+
+/***************** End Mobile ******************/
+
+:root {
+    --hover-bkgd-color: #dfdfdf00;
+	--sidebar-bkgd-color: #25b99014;
+}
+
+.menubar-item>span {
+    font-size: 0.1em;
+}
